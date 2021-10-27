@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="shortcut icon" href="/imagens/icone.png">
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>Victor Jurado</title>
+
+</head>
+
+<body>
+
+    <header id="header">
+        <p id="logo" href="">VICTOR JURADO</p>
+        <nav id="nav">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
+                aria-expanded="false">
+                <span id="hamburger"></span>
+            </button>
+            <ul id="menu" role="menu">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            <!--<li><a href="#arquivos">Arquivos</a></li>-->
+            </ul>
+        </nav>
+    </header>
+    <!--Sobre-->
+    <section id="sobre">
+        <div id="container-sobre">
+            <h2>Sobre</h2>
+            <p>
+
+            </p>
+        </div>
+    </section>
+    <!--Projetos-->
+    <section id="projetos">
+            <h2>Projetos</h2>
+            <div id="container-projetos">
+                <div>
+                  <button onClick ="voltar()" class="btn-proj" id="btn-esq">&lt;</button>
+                </div>
+                <div id="img-projetos"> 
+                 
+                </div>
+                <div>
+                  <button onClick="avancar()" class="btn-proj" id="btn-dir">&gt;</button>
+            </div>
+        </div>
+    </section>
+    <!--Contato-->
+    <section id="contato">
+        <h2>Contato</h2>
+        <div id="container-contato">
+            <ul id="icones-contato">
+                <li><a href="https://github.com/VictorJurado18" target="_blank"><img class="imagens-contato" src="imagens/github.png"></a></li>
+                <li><a href="https://www.linkedin.com/in/victor-nemeth-jurado-2a93a0206/" target="_blank"><img class="imagens-contato" src="imagens/linkedin.png"></a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=5511983018778" target="_blank"><img class="imagens-contato" src="imagens/whatsapp-logo-1.png"></a></li>
+                <li><a href="mailto:victor.nemejur@gmail.com"><img class="imagens-contato" src="imagens/email.png"></a></li>
+            </ul>
+        </div>
+        
+    </section>
+
+
+</body>
+
+<script src="js/script.js"></script>
+<hr />
+<footer>
+    &copy; 2021 - Todos os direitos reservados.
+</footer>
+
+</html>
