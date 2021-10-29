@@ -57,19 +57,58 @@ h2 {
     padding-top: 1em;
     padding-bottom: 1em;
 }
+/*------------------Sobre------------------*/
+
+#container-sobre{
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+  }
+  #div-sobre1{
+    width: 10%;
+  }
+  #conteudo-sobre{
+    width: 80%;
+    padding-bottom: 3em;
+    text-align: left;
+    margin-top: 0;
+    background: lightgrey;
+    padding: 1em;
+    border-radius: 10px;
+  }
+  #div-sobre2{
+    width: 10%;
+  }
+  #img-1{
+    width: 20%;
+    border-radius: 10px;
+    float: left;
+    margin-right: 1em;
+  }
+
+
+/*-----------------Fim Sobre---------------*/
+
 /*-----------------Projetos----------------*/
 #container-projetos{
     display: inline-flex;
     align-items: center;
     margin: 3% 10% 3% 10%;
   }
-  
+
+#nomeDoProj{
+    text-align: center;
+
+}
   .btn-proj{
     cursor: pointer;
     border-style: none;
     border-radius: 50%;
     margin: auto 10px auto 10px;
     transition: .3s;
+    font-size: 20px;
+    padding: 5px 5px;
+  
   }
   .btn-proj:hover{
     color: white;
@@ -100,7 +139,9 @@ h2 {
 }
 
 .imagens-contato {
-    width: 3em;
+    padding-top:2em ;
+    padding-bottom: 2em;
+    width: 4em;
 }
 
 /*----------------------------------------------------------------------------------*/
