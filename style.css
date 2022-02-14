@@ -1,0 +1,62 @@
+body {
+  margin: 0px;
+  animation: gradient 10s ease alternate infinite;
+  background: linear-gradient(-45deg, #52eed9, #357ed1, #23a6d5, #23d5ab)
+    no-repeat;
+  background-size: 300% 300%;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 100vh;
+  font-size: 2rem;
+}
+div {
+  display: block;
+  text-align: center;
+  margin: 30px;
+  position: relative;
+}
+.cont {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+img {
+  width: 300px;
+  max-width: 100%;
+  position: absolute;
+  left: 150px;
+}
+@keyframes gradient {
+  from {
+    background-position: 0 50%;
+  }
+  to {
+    background-position: 100% 50%;
+  }
+}
+footer {
+  margin: 0px;
+  padding: 0px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+footer ul {
+  font-size: 1rem;
+  list-style: none;
+  text-decoration: none;
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: rgba(0, 0, 0, 0.5);
+}
+ul li {
+  padding-bottom: 20px;
+}
+h3 {
+  margin-left: 30px;
+  padding-top: 30px;
+}
