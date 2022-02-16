@@ -78,3 +78,18 @@ h2::after {
     opacity: 0;
   }
 }
+
+@media (max-width: 600px) {
+  header {
+    align-items: center;
+  }
+  section {
+    font-size: 1em;
+  }
+  span::after {
+    bottom: 160px;
+  }
+  footer ul {
+    grid-template-columns: 1fr;
+  }
+}
